@@ -1,4 +1,5 @@
 -- Criando banco de dados
+
 create database bdExemplo;
 
 -- usando bando de dados
@@ -17,3 +18,5 @@ Senha varchar(50) not null
 -- consultando os dados do banco
 
 select * from Usuarios;
+
+insert into Usuarios(Nome, Email, Senha) values("carlos", "carlos@gmail.com", "123456");
